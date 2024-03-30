@@ -208,7 +208,6 @@ class ProfileActivity : AppCompatActivity(), CoroutineScope by MainScope() {
         startActivityForResult(intent, CAMERA)
     }
 
-
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (resultCode == Activity.RESULT_CANCELED) {
